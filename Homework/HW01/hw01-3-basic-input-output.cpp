@@ -13,3 +13,16 @@
     Output:
         ABD DEFs TC, RMUTL, Chiang Mai, Thailand
 */
+#include <stdio.h>
+int main()
+{
+    char firstName[] = "Aomsin";
+    char lastName[] = "AomMoney";
+    char RmutlTH[] ="TC,RMUTL,Chiang Mai,Thailand";
+    char firstName1[] ="ABC";
+    char lastName1[] ="DEF";
+    char RmutlTH1[] ="TC,RMUTL,Chiang Mai,Thailand";
+    printf("Output: %s %s %s\n", firstName, lastName, RmutlTH);
+    printf("Output: %s %s %s\n",firstName1, lastName1,RmutlTH1);
+    
+}
